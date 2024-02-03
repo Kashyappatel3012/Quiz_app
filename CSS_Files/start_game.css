@@ -1,0 +1,54 @@
+/* Apply styles to the body element */
+body {
+    font-family: 'Arial', sans-serif; /* Set font family to Arial or sans-serif if Arial is not available */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #f4f4f4; /* Set background color to a light gray */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    height: 100vh; /* Set height to 100% of the viewport height */
+}
+
+/* Style for the quiz container */
+.quiz-container {
+    background-color: #fff; /* Set background color to white */
+    padding: 20px; /* Add 20px padding */
+    border-radius: 10px; /* Add rounded corners with a radius of 10px */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for a card-like effect */
+}
+
+/* Style for h2 heading element */
+h2 {
+    color: #333; /* Set text color to a dark gray */
+}
+
+/* Style for options container */
+.options-container {
+    margin-top: 20px; /* Add top margin of 20px */
+}
+
+/* Style for individual options */
+.option {
+    display: block; /* Display as block element */
+    margin: 10px 0; /* Set margin around each option */
+    padding: 10px; /* Add 10px padding */
+    width: 100%; /* Set width to 100% */
+    border: 1px solid #ccc; /* Add a 1px solid border with light gray color */
+    border-radius: 5px; /* Add rounded corners with a radius of 5px */
+    cursor: pointer; /* Set cursor to pointer for interactivity */
+    transition: background-color 0.3s ease; /* Add a smooth transition for background color changes */
+}
+
+/* Hover effect for options */
+.option:hover {
+    background-color: #f0f0f0; /* Change background color on hover to a slightly lighter shade */
+}
+
+/* Style for highscore display */
+#highscore-display {
+    position: absolute; /* Position the element absolutely */
+    top: 10px; /* 10px from the top */
+    right: 10px; /* 10px from the right */
+    color: #333; /* Set text color to a dark gray */
+}

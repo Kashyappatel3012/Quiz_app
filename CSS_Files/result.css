@@ -1,0 +1,42 @@
+/* Apply default styles to the body element */
+body {
+    font-family: 'Arial', sans-serif; /* Set font family to Arial or sans-serif if Arial is not available */
+    background-color: #f4f4f4; /* Set background color to a light gray */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Style for h1 heading element */
+h1 {
+    text-align: center; /* Center-align text */
+    color: #333; /* Set text color to a dark gray */
+}
+
+/* Style for the result container */
+#result-container {
+    max-width: 600px; /* Set maximum width of the container */
+    margin: 20px auto; /* Center the container horizontally with 20px top and bottom margin */
+    padding: 20px; /* Add 20px padding to the container */
+    background-color: #fff; /* Set background color to white */
+    border-radius: 8px; /* Add rounded corners with a radius of 8px */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for a card-like effect */
+}
+
+/* Style for paragraph elements within the container */
+p {
+    margin: 10px 0; /* Set margin for paragraphs */
+    font-size: 18px; /* Set font size to 18px */
+    color: #555; /* Set text color to a dark gray */
+}
+
+/* Style for spans within elements with IDs 'correct-attempts' and 'incorrect-attempts' */
+#correct-attempts span,
+#incorrect-attempts span {
+    font-weight: bold; /* Set font weight to bold */
+    color: #27ae60; /* Set text color to a green shade */
+}
+
+/* Additional style for spans within the element with ID 'incorrect-attempts' */
+#incorrect-attempts span {
+    color: #e74c3c; /* Override text color to a red shade */
+}
